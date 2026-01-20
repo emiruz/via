@@ -103,12 +103,15 @@ class ViaState(pyspiel.State):
             row = a[i*_NUM_COLS:(i+1)*_NUM_COLS]
             s += f"{i+1} "
             for x in row:
-                if x == 1: s += "\033[97m█\033[0m "
-                elif x == -1: s += "\033[90m█\033[0m "
-                else: s += "· "
+                if x == 1: 
+                    s += "\033[31m█\033[0m "
+                elif x == -1: 
+                    s += "\033[32m█\033[0m "
+                else: 
+                    s += "· "
             s += "\n"
         return s
-
+    
     def _neighbours(self, x, n=_NUM_COLS):
         r,c = self.to_2d(x)
         v   = self._state[x]
