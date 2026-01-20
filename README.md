@@ -73,3 +73,29 @@ of 2000 MCTS simulations.
 ```
 python3 game.py -2000
 ```
+
+Here is an example of a human vs bot game invocation
+with a 1000 MCTS simulation calculation budget. To
+make a move type the row and column coordinate separated
+by a comma.
+
+```
+>> python3 game.py 1000
+
+MCTS simulations: 1000
+Player 1: human Player 2: bot
+
+  1 2 3 4 5 6
+1 · · · · · · 
+2 · · · · · · 
+3 · · · · · · 
+4 · · · · · · 
+5 · · · · · · 
+6 · · · · · · 
+
+Your action (row,col): 3,2
+```
+
+For example, to mark cell at row `3` and column `2` you
+would type `3,2`. The bot will then make its move and
+return control to the human player.
