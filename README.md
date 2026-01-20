@@ -27,6 +27,7 @@ connected top to bottom.
 Green wins the following game because they have the biggest
 connected block (11 green cells, to 9 red).
 
+```
     1  2  3  4  5  6
 1  🟥 🟩 🟩 🟩 🟥 🟩
 2  🟩 🟩 🟩 🟩 🟥 🟩
@@ -34,7 +35,7 @@ connected block (11 green cells, to 9 red).
 4  🟥 🟥 🟥 🟩 🟥 🟥
 5  🟥 🟩 🟥 🟥 🟩 🟥
 6  🟥 🟩 🟩 🟩 🟥 🟥
-
+```
 
 ## Contents
 
