@@ -1,14 +1,14 @@
 # Via (aka Routes)
 
 Via ("route" in Italian and Latin) is a simple abstract
-pen-and-paper 2 player strategy game. Its played on a
-square grid with an even number of cells (e.g. 6x6, 8x8).
-The players pick different colours and take turns colouring
-in a square. A player wins by either making a route of
-connected cells between opposing sides (left to right, top
-to bottom), or by having the biggest connected block of
-cells when no further moves are possible. Two cells are
-connected if they are adjacent (diagonals are not
+pen-and-paper 2 player strategy game of my invention. Its
+played on a square grid with an even number of cells (e.g.
+6x6, 8x8). The players pick different colours and take
+turns colouring in a square. A player wins by either making
+a route of connected cells between opposing sides (left to
+right, top to bottom), or by having the biggest connected
+block of cells when no further moves are possible. Two cells
+are connected if they are adjacent (diagonals are not
 connected).
 
 For example, green wins the following game because they
