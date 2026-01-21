@@ -47,7 +47,7 @@ Search (MCTS) based bot.
 ## Setup
 
 ```
-git clone https://github.com/emiruz/pyevidence.git
+git clone https://github.com/emiruz/via.git
 pip install open_spiel
 ```
 
